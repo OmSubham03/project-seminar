@@ -29,6 +29,6 @@ jobs:
         uses: Azure/webapps-deploy@v2
         with:
         # Name of the Azure Web App
-          app-name: osp_friends
+          app-name: osp-friends
           publish-profile: ${{ secrets.semiar }}
 
